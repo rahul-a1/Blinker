@@ -18,6 +18,8 @@
 		7E2DD1A818182034004A34A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E2DD1A718182034004A34A0 /* Default-568h@2x.png */; };
 		7E2DD1AB18182034004A34A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E2DD1AA18182034004A34A0 /* ViewController.m */; };
 		7E2DD1AE18182034004A34A0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E2DD1AC18182034004A34A0 /* ViewController.xib */; };
+		7EFFDCDA181990B600E5C75E /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EFFDCD9181990B600E5C75E /* tick.png */; };
+		7EFFDCDC1819945A00E5C75E /* notick.png in Resources */ = {isa = PBXBuildFile; fileRef = 7EFFDCDB1819945A00E5C75E /* notick.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		7E2DD1A918182034004A34A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7E2DD1AA18182034004A34A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7E2DD1AD18182034004A34A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7EFFDCD9181990B600E5C75E /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		7EFFDCDB1819945A00E5C75E /* notick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notick.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 		7E2DD19718182033004A34A0 /* Blinker */ = {
 			isa = PBXGroup;
 			children = (
+				7EFFDCD9181990B600E5C75E /* tick.png */,
+				7EFFDCDB1819945A00E5C75E /* notick.png */,
 				7E2DD1A018182033004A34A0 /* AppDelegate.h */,
 				7E2DD1A118182033004A34A0 /* AppDelegate.m */,
 				7E2DD1A918182034004A34A0 /* ViewController.h */,
@@ -163,6 +169,8 @@
 				7E2DD1A618182034004A34A0 /* Default@2x.png in Resources */,
 				7E2DD1A818182034004A34A0 /* Default-568h@2x.png in Resources */,
 				7E2DD1AE18182034004A34A0 /* ViewController.xib in Resources */,
+				7EFFDCDA181990B600E5C75E /* tick.png in Resources */,
+				7EFFDCDC1819945A00E5C75E /* notick.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +299,7 @@
 				7E2DD1B318182034004A34A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

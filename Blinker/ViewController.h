@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate, UITextFieldDelegate>
+{
+    
+    IBOutlet UITableView *tbl_VIN;
+    IBOutlet UITableView *tbl_condition;
+    NSMutableArray *arr_condition;
+    NSMutableArray *arr_VIN;
+
+}
+- (IBAction)BtnConditionClicked:(id)sender;
+- (IBAction)BtnVINClicked:(id)sender;
 
 @end
